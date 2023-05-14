@@ -6,7 +6,9 @@ body {
 }
 :root{
     --title-color:#ffffff;
-
+    --background-color:#2e2f42;
+    --portfolio-filter-color: #4D5AE5;
+    --portfolio-filter-background:#F4F4FD;
 }
 
 .list {
@@ -24,9 +26,10 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
- main-menu:hover,
+ .main-menu:hover,
  .main-menu:focus {
-     color: #550707;
+    /* #550707 */
+     color: #404bbf;
  }
 
  .main-return-index{
@@ -41,14 +44,14 @@ body {
  }
 .main-return-index:hover,
 .main-return-index:focus {
-    color: #550707;
+    color: #404bbf;
 }
  .main-footer-index {
     color: #F4F4FD;
  }
  
 .main-email-tel{
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5x;
@@ -57,15 +60,16 @@ body {
 }
 .main-email-tel:hover,
 .main-email-tel:focus {
-     color: #550707;
+    color: #404bbf;
+    /* color: #550707; */
 }
 .main-h-first {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-
+    text-align: center  
     letter-spacing: 0.02em;
-    background: #2E2F42;
+    background: var(--background-color);
     color: var(--title-color);
 }
 .main-button {
@@ -79,6 +83,7 @@ body {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
 }
+
 .main-h-second {
     font-size: 20px;
     line-height: 1.2;
@@ -95,7 +100,7 @@ body {
 .main-h-third {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -119,7 +124,7 @@ body {
     color: #434455;
 }
 .main-p-footer{
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -135,9 +140,9 @@ body {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,5;
-    background: #F4F4FD;
-    color: #4D5AE5;
+    line-height: 1.5;
+    background: var(--portfolio-filter-background);
+    color:var(--portfolio-filter-color);
 }
 .portfolio-all {
     background: #404BBF;
@@ -146,8 +151,18 @@ body {
 
 .portfolio-filter:hover, 
 .portfolio-filter:focus {
-color: #550707;
+    color: var(--title-color);
+    background: var(--background-color)
 }
+.portfolio-all:hover,
+.portfolio-all:focus {
+    background: var(--portfolio-filter-background);
+    color: var(--portfolio-filter-color);
+    /* color: #404bbf; */
+    
+    /* color: #550707; */
+}
+
 .main-img{
     box-sizing: border-box;
 
