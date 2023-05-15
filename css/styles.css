@@ -22,7 +22,8 @@ body {
 }
     /* Main menu */
 .main-menu {
-    font-family: 'Roboto';
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -39,7 +40,8 @@ body {
 }
 
  .main-return-index{
-    font-family: 'Raleway';
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -80,11 +82,15 @@ body {
 }
 .main-button {
         font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
         display: flex;
         align-items: center;
         letter-spacing: 0.04em;
         color: var(--title-color);
-        background: #4D5AE5;
+        background: var(--background-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
         cursor: pointer;
@@ -95,7 +101,7 @@ body {
     }
 
 .main-h-second {
-    font-weight: 500
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -127,10 +133,11 @@ body {
 }
 
 .main-fio {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
    /* text-align: center; */
-    
+    background-color: #FFFFFF;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
