@@ -11,7 +11,7 @@ body {
     --title-color:#ffffff;
     --background-color-body:#2e2f42;
     --portfolio-filter-color: #4D5AE5;
-    --portfolio-filter-background:#F4F4FD;
+    --portfolio-filter-background:#F4F4FD; #F4F4FD
 }
 
 .list {  list-style: none;  }
@@ -51,6 +51,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    background-color:  var(--background-color-body);
  }
 .main-return-index:hover,
 .main-return-index:focus {
