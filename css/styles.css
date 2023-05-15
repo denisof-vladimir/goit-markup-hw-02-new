@@ -14,12 +14,8 @@ body {
     --portfolio-filter-background:#F4F4FD;
 }
 
-.list {
-    list-style: none;
-}
-.link{
-    text-decoration: none;
-}
+.list {  list-style: none;  }
+.link { text-decoration: none; }
     /* Main menu */
 .main-menu {
     font-family: 'Raleway', sans-serif;
@@ -31,12 +27,18 @@ body {
     color: #2E2F42;
 }
  .main-menu:hover,
- .main-menu:focus {
-    /* #550707 */
-     color: #404bbf;
- }
+ .main-menu:focus { color: #404bbf; 
+}
 .logo-studio{
-    color: #2E2F42;
+       font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        display: flex;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #2E2F42;
 }
 
  .main-return-index{
@@ -193,7 +195,7 @@ body {
     /* color: #550707; */
 }
 .portfolio-h2{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
@@ -203,7 +205,7 @@ body {
         background-color: var(--background-color-body);
 }
 .portfolio-p{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
