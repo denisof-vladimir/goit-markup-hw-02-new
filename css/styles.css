@@ -47,11 +47,11 @@ body{
     display: flex;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
-    background-color: #FFFFFF }
+    color: var(--portfolio-filter-color);
+    background-color: #FFFFFF; }
     
 .main-footer-index {
-    color: #4D5AE5;
+    color: var(--portfolio-filter-color);
 }
 .main-box-footer {
     background-color: var(--background-color-body);
@@ -60,14 +60,15 @@ body{
 .main-return-index:focus {
     color: #404bbf;}
  .main-footer-index {
-    color: #4D5AE5; }
+    color: var(--portfolio-filter-color); }
 .main-p-footer {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #F4F4FD;}
+    color: var(--portfolio-filter-background);
+}
 
 .main-email-tel{
     font-family: 'Roboto',sans-serif;
