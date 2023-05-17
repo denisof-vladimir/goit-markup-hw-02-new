@@ -40,7 +40,9 @@ body {
         text-transform: uppercase;
         color: #2E2F42;
 }
-
+.main-box-footer {
+    background-color: var(--background-color-body);
+}
  .main-return-index{
     font-family: 'Raleway',sans-serif;
     font-style: normal;
@@ -51,16 +53,22 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    background-color:  var(--background-color-body);
- }
+    background-color:  var(--background-color-body); }
+.main-footer-index {
+    color: #4D5AE5;}
 .main-return-index:hover,
 .main-return-index:focus {
-    color: #404bbf;
-}
+    color: #404bbf;}
  .main-footer-index {
-    color: #4D5AE5;
- }
- 
+    color: #4D5AE5; }
+.main-p-footer {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;}
+
 .main-email-tel{
     font-family: 'Roboto',sans-serif;
     font-style: normal;
@@ -98,7 +106,7 @@ body {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
         cursor: pointer;
-        #4D5AE5
+    
 }
 .main-button:hover,
 .main-button:focus {
@@ -123,8 +131,8 @@ body {
     background-color: #F4F4FD;
 }
 .class-team-img{
-    width="264";
-    height="260";
+    width:"264";
+    height:"260";
     background-color: #FFFFFF;
 }
 .main-h-third {
@@ -154,17 +162,8 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.main-p-footer{
-    font-family: 'Roboto',sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #F4F4FD;
-    }
- .main-box-footer{
-    background-color: var(--background-color-body);
- }
+
+ 
     
 /****--------------- Portfolio */
 .portfolio-filter{
