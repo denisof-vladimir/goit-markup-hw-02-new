@@ -201,25 +201,11 @@ body{
     color:var(--portfolio-filter-color);
     cursor: pointer;
 }
-/* .portfolio-all { */
-    /* background-color: #404BBF; */
-    /* color: var(--title-color); */
-/* } */
-
 .portfolio-filter:hover, 
 .portfolio-filter:focus {
     color: var(--title-color);
     background-color: #404BBF;
 }
-/* .portfolio-all:hover, */
-/* .portfolio-all:focus { */
-    /* background-color: var(--portfolio-filter-background); */
-    /* color: var(--portfolio-filter-color); */
-    /* color: #404bbf; */
-    
-    /* color: #550707; */
-/* } */
-
 .portfolio-h2{
     font-family: 'Roboto', sans-serif;
         font-style: normal;
@@ -235,7 +221,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 } 
