@@ -51,7 +51,7 @@ body{
     display: flex;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--portfolio-filter-color);
+    color: var(--background-color-body);
     background-color: #FFFFFF;
  }
 .main-footer-index {
@@ -86,7 +86,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-main-menu);
 }
 .main-email-tel:hover,
 .main-email-tel:focus {
