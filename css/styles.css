@@ -199,7 +199,7 @@ body{
     letter-spacing: 0.04em;
     background-color: var(--portfolio-filter-background);
     color:var(--portfolio-filter-color);
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 .portfolio-filter:hover, 
 .portfolio-filter:focus {
