@@ -34,7 +34,7 @@ body{
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
-        display: flex;
+        /* display: flex; */
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #2E2F42;
@@ -52,7 +52,16 @@ body{
     color: var(--portfolio-filter-color);
     background-color: #FFFFFF;
  }
-.main-box-footer {
+.main-footer-index {
+    font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        display: flex;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--portfolio-filter-color);
     background-color: var(--background-color-body);
 }
 .main-return-index:hover,
@@ -89,7 +98,7 @@ body{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center; 
+    /* text-align: center;  */
     letter-spacing: 0.02em;
     /* background-color: var(--background-color-body); */
     color: var(--title-color);
@@ -100,21 +109,23 @@ body{
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        display: flex;
-        align-items: center;
+        /* display: flex; */
+        /* align-items: center; */
         letter-spacing: 0.04em;
         color: var(--title-color);
         background-color: var(--portfolio-filter-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
-        cursor: pointer;
+        /* border-radius: 4px; */
+        /* cursor: pointer; */
     
 }
 .main-button:hover,
 .main-button:focus {
     background-color: #404BBF;
     }
-
+.main-section-second{
+    background: #E5E5E5;    
+}
 .main-h-second {
     font-weight: 500;
     font-size: 20px;
@@ -133,17 +144,17 @@ body{
     background-color: #F4F4FD;
 }
 .class-team-img{
-    width:"264";
-    height:"260";
+    /* width:"264"; */
+    /* height:"260"; */
     background-color: #FFFFFF;
 }
 .main-h-third {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
+    /* text-align: center; */
     letter-spacing: 0.02em;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     color: #2E2F42;
 }
 
@@ -165,8 +176,8 @@ body{
     color: #434455;
 }
 .footer-class{
-    width: 1440px;
-    height: 312px;
+    /* width: 1440px; */
+    /* height: 312px; */
     background-color: var(--background-color-body);
 }
  
@@ -180,7 +191,7 @@ body{
     letter-spacing: 0.04em;
     background-color: var(--portfolio-filter-background);
     color:var(--portfolio-filter-color);
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 /* .portfolio-all { */
     /* background-color: #404BBF; */
@@ -222,13 +233,13 @@ body{
 } 
 
 .main-img{
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 
-    width: 360px;
-    height: 300px;
+    /* width: 360px; */
+    /* height: 300px; */
 
     background-color: url(2368.jpg);
     /* CORNFLOWER */
 
-    border: 1px solid #E7E9FC;
+    /* border: 1px solid #E7E9FC; */
 }
