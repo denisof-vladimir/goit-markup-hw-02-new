@@ -24,7 +24,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color-main-menu);
+    color: var(--background-color-body);
 }
  .main-menu:hover,
  .main-menu:focus {
@@ -51,7 +51,7 @@ body{
     display: flex;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--background-color-body);
+    color: var(--portfolio-filter-color);
     background-color: #FFFFFF;
  }
 .main-footer-index {
@@ -69,6 +69,10 @@ body{
 .main-return-index:hover,
 .main-return-index:focus {
     color: #404bbf;
+}
+.main-footer-index:hover,
+.main-footer-index:focus {
+    color: #FFFFFF;
 }
 .main-p-footer {
     font-family: 'Roboto', sans-serif;
