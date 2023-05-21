@@ -50,19 +50,15 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--portfolio-filter-color);
-    background-color: #FFFFFF; }
-    
-.main-footer-index {
-    color: var(--background-color-body);
-}
+    background-color: #FFFFFF;
+ }
 .main-box-footer {
     background-color: var(--background-color-body);
 }
 .main-return-index:hover,
 .main-return-index:focus {
-    color: #404bbf;}
- .main-footer-index {
-    color: var(--portfolio-filter-color); }
+    color: #404bbf;
+}
 .main-p-footer {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -186,24 +182,25 @@ body{
     color:var(--portfolio-filter-color);
     cursor: pointer;
 }
-.portfolio-all {
-    background-color: #404BBF;
-    color: var(--title-color);
-}
+/* .portfolio-all { */
+    /* background-color: #404BBF; */
+    /* color: var(--title-color); */
+/* } */
 
 .portfolio-filter:hover, 
 .portfolio-filter:focus {
     color: var(--title-color);
-    background-color: var(--background-color-body);
+    background-color: #404BBF;
 }
-.portfolio-all:hover,
-.portfolio-all:focus {
-    background-color: var(--portfolio-filter-background);
-    color: var(--portfolio-filter-color);
+/* .portfolio-all:hover, */
+/* .portfolio-all:focus { */
+    /* background-color: var(--portfolio-filter-background); */
+    /* color: var(--portfolio-filter-color); */
     /* color: #404bbf; */
     
     /* color: #550707; */
-}
+/* } */
+
 .portfolio-h2{
     font-family: 'Roboto', sans-serif;
         font-style: normal;
