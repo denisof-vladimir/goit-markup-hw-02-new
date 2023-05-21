@@ -48,7 +48,7 @@ body{
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
+    /* display: flex; */
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--portfolio-filter-color);
@@ -60,7 +60,7 @@ body{
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
-        display: flex;
+        /* display: flex; */
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--portfolio-filter-color);
@@ -118,11 +118,11 @@ body{
         font-size: 16px;
         line-height: 1.5;
         /* display: flex; */
-        align-items: center;
+        /* align-items: center; */
         letter-spacing: 0.04em;
         color: var(--title-color);
         background-color: var(--portfolio-filter-color);
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
         /* border-radius: 4px; */
         cursor: pointer;
     
