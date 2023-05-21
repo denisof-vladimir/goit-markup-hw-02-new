@@ -9,6 +9,7 @@ body{
     --background-color-body:#2e2f42;
     --portfolio-filter-color: #4D5AE5;
     --portfolio-filter-background:#F4F4FD;
+    --color-main-menu: #434455;
 }
 
 .list{list-style: none;  }
@@ -23,10 +24,11 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--color-main-menu);
 }
  .main-menu:hover,
- .main-menu:focus { color: #404bbf; 
+ .main-menu:focus {
+     color: #404bbf; 
 }
 .logo-studio{
        font-family: 'Raleway', sans-serif;
@@ -98,7 +100,7 @@ body{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    /* text-align: center;  */
+    text-align: center; 
     letter-spacing: 0.02em;
     /* background-color: var(--background-color-body); */
     color: var(--title-color);
@@ -116,7 +118,7 @@ body{
         background-color: var(--portfolio-filter-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         /* border-radius: 4px; */
-        /* cursor: pointer; */
+        cursor: pointer;
     
 }
 .main-button:hover,
@@ -152,9 +154,9 @@ body{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    /* text-align: center; */
+    text-align: center;
     letter-spacing: 0.02em;
-    /* text-transform: capitalize; */
+    text-transform: capitalize;
     color: #2E2F42;
 }
 
@@ -162,7 +164,7 @@ body{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-   /* text-align: center; */
+    text-align: center;
     background-color: #FFFFFF;
     letter-spacing: 0.02em;
     color: #2E2F42;
@@ -171,7 +173,7 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-/* text-align: center; */
+    text-align: center;
     letter-spacing: 0.02em;
     color: #434455;
 }
