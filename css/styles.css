@@ -160,7 +160,7 @@ body{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    /* text-align: center; */
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
@@ -170,7 +170,7 @@ body{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    /* text-align: center; */
+    text-align: center;
     background-color: #FFFFFF;
     letter-spacing: 0.02em;
     color: #2E2F42;
@@ -179,7 +179,7 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    /* text-align: center; */
+    text-align: center;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -206,7 +206,7 @@ body{
     color: var(--title-color);
     background-color: #404BBF;
 }
-.portfolio-h2{
+.pportfolio-h-two{
     font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 500;
