@@ -36,7 +36,7 @@ body{
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
-        /* display: flex; */
+     
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #2E2F42;
@@ -48,7 +48,7 @@ body{
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    /* display: flex; */
+  
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--portfolio-filter-color);
@@ -60,7 +60,7 @@ body{
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
-        /* display: flex; */
+      
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--portfolio-filter-color);
@@ -97,7 +97,7 @@ body{
 .main-email-tel:hover,
 .main-email-tel:focus {
     color: #404bbf;
-    /* color: #550707; */
+ 
 }
 .main-section-first{
     background-color: var(--background-color-body);
@@ -108,7 +108,7 @@ body{
     line-height: 1.07;
     text-align: center; 
     letter-spacing: 0.02em;
-    /* background-color: var(--background-color-body); */
+   
     color: var(--title-color);
 }
 .main-button {
@@ -117,13 +117,11 @@ body{
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        /* display: flex; */
-        /* align-items: center; */
+       
         letter-spacing: 0.04em;
         color: var(--title-color);
         background-color: var(--portfolio-filter-color);
-        /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
-        /* border-radius: 4px; */
+     
         cursor: pointer;
     
 }
@@ -184,8 +182,7 @@ body{
     color: #434455;
 }
 .footer-class{
-    /* width: 1440px; */
-    /* height: 312px; */
+   
     background-color: var(--background-color-body);
 }
  
@@ -229,13 +226,5 @@ body{
 
 
 .main-img{
-    /* box-sizing: border-box; */
-
-    /* width: 360px; */
-    /* height: 300px; */
-
-    /* background-color: url(2368.jpg); */
-    /* CORNFLOWER */
-
-    /* border: 1px solid #E7E9FC; */
+    
 }
