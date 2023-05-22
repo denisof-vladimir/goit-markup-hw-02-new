@@ -206,7 +206,7 @@ body{
     color: var(--title-color);
     background-color: #404BBF;
 }
-.pportfolio-h-two{
+.portfolio-h-two{
     font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 500;
@@ -234,7 +234,7 @@ body{
     /* width: 360px; */
     /* height: 300px; */
 
-    background-color: url(2368.jpg);
+    /* background-color: url(2368.jpg); */
     /* CORNFLOWER */
 
     /* border: 1px solid #E7E9FC; */
