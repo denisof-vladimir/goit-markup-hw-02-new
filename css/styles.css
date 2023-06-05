@@ -212,18 +212,9 @@ padding-top: 72px;
     padding-right: 15px;
     margin: 0 auto;
     outline: 2px solid red;
-    display: flex;
+    /* display: flex; */
     justify-content: start;
 
     }
-.container-hero{
-    width: 1440px;
-    left: 0px;
-    top: 72px;
-}
-.container-second{
-    width: 1128px;
-    top: 755px;
-    margin: 83px 156px 0px 156px;
-}
+
                 
