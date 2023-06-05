@@ -43,14 +43,7 @@ img{display: block;}
 }
 
 .main-return-index{
-    /* font-family: 'Raleway',sans-serif; */
-    /* font-style: normal; */
-    /* font-weight: 800; */
-    /* font-size: 18px; */
-    /* line-height: 1.17; */
-  
-    /* letter-spacing: 0.03em; */
-    /* text-transform: uppercase; */
+   
     color: var(--portfolio-filter-color);
     background-color: #FFFFFF;
  }
