@@ -38,7 +38,7 @@ img{display: block;}
         text-transform: uppercase;
 }
 .logo-studio{
-    color: #2E2F42;
+    color: var(--background-color-body);
 }
 
 .main-return-index{
