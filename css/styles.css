@@ -30,16 +30,18 @@ img{display: block;}
  .main-menu:focus {
      color: #404bbf; 
 }
+.nav-class{
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+    
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
 .logo-studio{
-       /* font-family: 'Raleway', sans-serif; */
-        /* font-style: normal; */
-        /* font-weight: 800; */
-        /* font-size: 18px; */
-        /* line-height: 1.17; */
-     
-        /* letter-spacing: 0.03em; */
-        /* text-transform: uppercase; */
-        color: #2E2F42;
+    color: #2E2F42;
 }
 
 .main-return-index{
@@ -71,6 +73,8 @@ img{display: block;}
     color: var(--portfolio-filter-background);
 }
 .main-p-footer {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--portfolio-filter-background);
     /* padding-top: 18px; */
     /* padding-bottom: 100px; */
