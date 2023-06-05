@@ -157,7 +157,7 @@ img{display: block;}
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--background-color-body);
-    border-top: 32px;
+ 
 }
 .job-title {
     font-size: 16px;
@@ -165,8 +165,7 @@ img{display: block;}
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--color-main-menu);
-    border-top: 8px;
-    border-bottom: 152px;
+
 }
 .footer-class{
    
@@ -206,15 +205,6 @@ img{display: block;}
 .main-img{
 padding-top: 72px;  
 }
-.container {
-    width: 1440px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-    outline: 2px solid red;
-    /* display: flex; */
-    justify-content: start;
-
-    }
+.
 
                 
