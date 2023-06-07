@@ -1,13 +1,19 @@
 body{
     font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color:#FFFFFF;}
+    color: var(--color-main-p);
+    background-color: var(--title-color);
+}
 :root{
     --title-color:#ffffff;
     --background-color-body:#2e2f42;
     --portfolio-filter-color: #4D5AE5;
     --portfolio-filter-background:#F4F4FD;
     --color-main-menu: #434455;
+    --color-focus-blu: #404bbf;
+    --color-h-second:#2E2F42;
+    --color-main-total: #F4F4FD;
+    --color-main-p: #434455;
+
 }
 .list{list-style: none;  }
 .link{text-decoration: none; }
@@ -25,26 +31,23 @@ body{
 }
  .main-menu:hover,
  .main-menu:focus {
-     color: #404bbf; 
+     color:var(--color-focus-blu); 
 }
-.nav-class{
-        font-family: 'Raleway', sans-serif;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-    
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-}
+.nav-class{}
+
 .logo-studio{
     color: var(--background-color-body);
 }
 
 .main-return-index{
-   
     color: var(--portfolio-filter-color);
-    background-color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
  }
 .main-footer-index {
     font-family: 'Raleway', sans-serif;
@@ -56,13 +59,9 @@ body{
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--portfolio-filter-color);
-    background-color: var(--background-color-body);
+        background-color: var(--background-color-body);
+}
 
-}
-.main-footer-index:hover,
-.main-footer-index:focus {
-    color: #FFFFFF;
-}
 .main-span-footer{
     color: var(--portfolio-filter-background);
 }
@@ -83,7 +82,7 @@ body{
 }
 .main-email-tel:hover,
 .main-email-tel:focus {
-    color: #404bbf;
+    color: var(--color-focus-blu);
  
 }
 .main-section-first{
@@ -114,30 +113,29 @@ body{
 }
 .main-button:hover,
 .main-button:focus {
-    background-color: #404BBF;
+    background-color: var(--color-focus-blu);
     }
 .main-section-second{}
+
 .main-h-second {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
- 
+    color: var(--color-h-second);
 }
 .main-p-second {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455; 
-
+    color: var(--color-main-p); 
  }
 .main-total-third{
-    background-color: #F4F4FD;
+    background-color: var(-color-main-total);
 }
 .class-team-img{
 
-    background-color: #FFFFFF;
+    background-color: var(--title-color);
 }
 .main-h-third {
     font-weight: 700;
@@ -187,7 +185,7 @@ body{
 .portfolio-filter:hover, 
 .portfolio-filter:focus {
     color: var(--title-color);
-    background-color: #404BBF;
+    background-color: var(--color-focus-blu);
 }
 .portfolio-h-two{
         font-weight: 500;
