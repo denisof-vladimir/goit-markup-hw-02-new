@@ -131,7 +131,7 @@ body{
     color: var(--color-main-p); 
  }
 .main-total-third{
-    background-color: var(-color-main-total);
+    background-color: var(--color-main-total);
 }
 .class-team-img{
 
